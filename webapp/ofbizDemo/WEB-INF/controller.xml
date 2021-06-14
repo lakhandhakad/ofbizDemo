@@ -43,8 +43,11 @@ under the License.
 
     <request-map uri="FindOfbizDemo"><security https="true" auth="true"/><response name="success" type="view" value="FindOfbizDemo"/></request-map>
 
-
-
+    <request-map uri="createOfbizDemo">
+        <security https="true" auth="true"/>
+        <event type="service" invoke="createOfbizDemoByJavaService"/>
+        <response name="success" type="view" value="main"/>
+    </request-map>
     <request-map uri="createOfbizDemo">
         <security https="true" auth="true"/>
         <event type="service" invoke="createOfbizDemo"/>
