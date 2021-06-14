@@ -50,6 +50,11 @@ under the License.
     </request-map>
     <request-map uri="createOfbizDemo">
         <security https="true" auth="true"/>
+        <event type="service" invoke="createOfbizDemoByGroovyService"/>
+        <response name="success" type="view" value="main"/>
+    </request-map>
+    <request-map uri="createOfbizDemo">
+        <security https="true" auth="true"/>
         <event type="service" invoke="createOfbizDemo"/>
         <response name="success" type="view" value="main"/>
     </request-map>
