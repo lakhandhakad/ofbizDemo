@@ -23,7 +23,7 @@ under the License.
 
 
 
-        <form name="AddOfbizDemo" type="single" target="createOfbizDemo">
+        <form name="AddOfbizDemo" type="single" target="createOfbizDemoEvent">
             <!-- We have this utility in OFBiz to render form based on service definition.
                  Service attributes will automatically lookedup and will be shown on form
             -->
