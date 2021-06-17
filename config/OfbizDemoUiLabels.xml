@@ -51,4 +51,7 @@ under the License.
     <property key="OfbizDemoLastName">
         <value xml:lang="en-US">Last Name</value>
     </property>
+    <property key="OfbizDemoAddFtl">
+        <value xml:lang="en-US">OfbizDemoAddFtl</value>
+    </property>
 </resource>
